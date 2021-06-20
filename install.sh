@@ -7,6 +7,6 @@ rm -rf motd
 rm -rf bash.bashrc
 cd $HOME
 mv bash.bashrc /data/data/com.termux/files/usr/etc
-echo "\e[32mRestart your termux\e[39m"
+echo -e "\e[32mRestart your termux\e[39m"
 sleep 2
 exit
